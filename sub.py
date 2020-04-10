@@ -11,9 +11,9 @@ from datetime import datetime
 
 s = requests.Session()
 
-user = "USERNAME"    # sep账号
-passwd = "PASSWORD"   # sep密码
-api_key = "API_KEY"  # server酱的api，填了可以微信通知打卡结果，不填没影响
+user = "dingshuai78@163.com"    # sep账号
+passwd = "dingshuai.78*8"   # sep密码
+api_key = "https://sc.ftqq.com/SCU93327T701a922d9caafc9c20a09523635570585e8ff47c857be.send"  # server酱的api，填了可以微信通知打卡结果，不填没影响
 
 
 def login(s: requests.Session, username, password):
